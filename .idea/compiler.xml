@@ -9,13 +9,20 @@
         <module name="task" />
         <module name="common" />
         <module name="form" />
+        <module name="nacos-config" />
         <module name="knowlege" />
         <module name="chat" />
+        <module name="account-consumer" />
         <module name="ota" />
-        <module name="account" />
-        <module name="redis" />
+        <module name="account-provider" />
         <module name="oss" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-provide" target="8" />
+      <module name="redis-client" target="8" />
+      <module name="redis-core" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
